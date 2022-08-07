@@ -12,7 +12,7 @@ import requests
 ## https://github.com/google/google-authenticator/wiki/Key-Uri-Format
 def generate_URL(secret, userID):
 
-    print("Generate QR code that encodes the URL G expects.")
+    print("Generate QR code that encodes the URL.")
     print("URI contains secret keys along with the user id required for the TOTP algorithm.")
 
     type = "totp"
